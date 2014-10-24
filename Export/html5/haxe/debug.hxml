@@ -1,0 +1,16 @@
+-main ApplicationMain 
+-cp /usr/lib/haxe/lib/openfl/2,0,1/
+-D openfl=2.0.1
+-cp Source
+-cp /usr/lib/haxe/lib/openfl/2,0,1/backends/html5
+-cp /usr/lib/haxe/lib/openfl/2,0,1/backends/html5
+-D tools=1.5.7
+-D openfl-html5
+-D html5
+-D web
+--remap flash:openfl
+-js Export/html5/bin/Rooms.js
+-cp Export/html5/haxe
+-D html5
+--macro allowPackage("flash")
+-debug

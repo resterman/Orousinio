@@ -1,0 +1,13 @@
+-main ApplicationMain 
+-cp /usr/lib/haxe/lib/openfl/2,0,1/
+-D openfl=2.0.1
+-cp Source
+-cp /usr/lib/haxe/lib/openfl/2,0,1/backends/flash
+-cp /usr/lib/haxe/lib/openfl/2,0,1/backends/flash
+-D tools=1.5.7
+-D openfl-flash
+-D web
+-swf-version 11.2
+-swf Export/flash/bin/Rooms.swf
+-swf-header 800:400:30:333333
+-cp Export/flash/haxe

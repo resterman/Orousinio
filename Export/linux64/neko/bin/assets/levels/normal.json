@@ -1,0 +1,30 @@
+[
+	{
+		"enemies": [
+			{"id": "simple", "amount": 10}
+		],
+		"frequency": 1
+	},
+	{
+		"enemies": [
+			{"id": "simple", "amount": 7},
+			{"id": "shield", "amount": 3}
+		],
+		"frequency": 1
+	},
+	{
+		"enemies": [
+			{"id": "simple", "amount": 10},
+			{"id": "shield", "amount": 5}
+		],
+		"frequency": 1
+	},
+	{
+		"enemies": [
+			{"id": "simple", "amount": 10},
+			{"id": "shield", "amount": 10},
+			{"id": "king", "amount": 5}
+		],
+		"frequency": 1
+	}
+]
